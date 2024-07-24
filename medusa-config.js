@@ -81,13 +81,8 @@ const projectConfig = {
 
 /** @type {import('@medusajs/medusa').ConfigModule} */
 module.exports = {
-  projectConfig: {
-    admin: {
-      serve: true,
-      route: "/admin" // Substitui a rota padrão /app
-    },
-  },
-  worker_mode: process.env.MEDUSA_WORKER_MODE,
+  projectConfig,
   plugins,
   modules,
+  worker_mode: process.env.MEDUSA_WORKER_MODE,
 };
