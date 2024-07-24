@@ -82,7 +82,12 @@ const projectConfig = {
 
 /** @type {import('@medusajs/medusa').ConfigModule} */
 module.exports = {
-  projectConfig,
+  projectConfig: {
+    admin: {
+      serve: true,
+      route: "/admin" // Substitui a rota padrão /app
+    }
+  },
   plugins,
   modules,
 };
