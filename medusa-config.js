@@ -57,7 +57,7 @@ const plugins = [
     resolve: "medusa-plugin-sendgrid",
     options: {
       api_key: process.env.SENDGRID_API_KEY,
-      from: "naoresponda@kaimara.com.br",
+      from: "Kaimara <naoresponda@kaimara.com.br>",
       order_placed_template: "d-2e7031bf38db43dfaea1f91aebb56ac3",
     },
   },
