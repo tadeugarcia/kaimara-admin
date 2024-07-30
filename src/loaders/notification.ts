@@ -12,6 +12,6 @@ import {
   
     notificationService.subscribe(
       "order.placed", 
-      "EmailSenderService"
+      "sendGrid"
     )
 }
