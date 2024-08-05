@@ -94,5 +94,12 @@ const projectConfig = {
 module.exports = {
   projectConfig,
   plugins,
-  modules
+  modules,
+  featureFlags: {
+    product_categories: true,
+    tax_inclusive_pricing: false,
+    order_editing: true,
+    sales_channels: true,
+    publishable_api_keys: false,
+  },
 };
